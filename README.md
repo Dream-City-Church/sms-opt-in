@@ -221,4 +221,22 @@ This last process addresses a rare occurence where a contact who was previously 
 
 
 # Database Customization & API Integration
-### Nothing to report at this time. Check back later.
+We have not implemented any customizations yet.
+- - -
+
+Idea: New database table to track the opt in status and facts of each mobile phone number ever entered into Ministry Platform
+
+Table: Mobile_Phone_Numbers 
+
+Columns:  
+* Mobile_Phone_ID  
+* Mobile_Phone (Unique)  
+* Do_Not_Text  
+* _Created_Date  
+* _Last_Opt_In_Attempt_Date  
+* _Opt_In_Received_Date  
+* _Opt_Out_Received_Date  
+
+Add "Mobile_Phone_ID" column to Contacts table.
+
+Use API/Azure Logic Apps or stored procedures to update records in the Mobile_Phone_Numbers table and update related Contacts. By tracking "_Last_Opt_In_Attempt_Date" we can re-send invites during activity touch points (e.g. registered for an event) without "spamming" the recipient.

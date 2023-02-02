@@ -188,7 +188,7 @@ There are no 'Steps' associated with this process.
 
 Again, very similar to the process for new contacts, but scoped to just when an existing contact's mobile phone field is modified.
 
-## #5 - Updated Contact Matches Opted-Out Number
+## #5 - Updated Contact Matches Only Opted-In Number
 ### Process: General
 Create your process in MP with the below configuration:
 * Process Name: _Your Choice_

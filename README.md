@@ -66,7 +66,7 @@ Create your process step in MP with the below configuration (blank fields skippe
 * Order: 0
 * Supervisor User: No
 * Text Template: _The SMS template you created earlier_
-* Text To Contact Field: Contacts.Contact_ID
+* Text To Contact Field: Contact_ID
 
 ### Explanation
 
@@ -155,7 +155,7 @@ Create your process step in MP with the below configuration (blank fields skippe
 * Order: 0
 * Supervisor User: No
 * Text Template: _The SMS template you created earlier_
-* Text To Contact Field: Contacts.Contact_ID
+* Text To Contact Field: Contact_ID
 
 ### Explanation
 

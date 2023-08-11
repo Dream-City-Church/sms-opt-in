@@ -13,7 +13,7 @@ Please review the Ministry Platform Knowledge Base article on Texting: https://w
 * Note the section on *Opting Out and Opting Back In*. Ministry Platform will automatically set Contact's "Do Not Text" field based on if an inbound message contains one of the opt-in or opt-out keywords.
 
 You will also want to create a template message in MP for the opt-in/double opt-in request:
-> DCC: Thanks for connecting with us! Reply 'Yes' to receive church news and announcements. STOP to cancel. Msg frequency varies. Standard msg&data rates apply.
+> DCC: Thanks for connecting with us! Reply with 'START' to receive church news and announcements. STOP to cancel. Msg frequency varies. Standard msg&data rates apply.
 
 You may also want to set up Messaging Service Opt-Out Management on your Twilio numbers. This will allow you to customize keywords and the reply messages when an Opt-Out, Opt-In, or Help message is received.
 
